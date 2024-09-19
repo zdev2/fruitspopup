@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>WinExe</OutputType>
+	  <TargetFramework>net8.0-windows</TargetFramework>
+	  <Nullable>enable</Nullable>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>true</SelfContained>
+	  <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <EmbeddedResource Include="apple.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="banana.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="orange.jpeg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="pineapple.jpeg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
